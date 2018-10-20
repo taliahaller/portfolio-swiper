@@ -4,7 +4,7 @@
   justify-content: center;
   /* max-width: 1250px;
   max-height: 500px; */
-  width: 900px;
+  /* width: 900px; */
   height: 622px;
   position: relative;
 }
@@ -162,4 +162,19 @@ border-radius: 20px;
 .swiper-button-next {
   -webkit-transform: translateX(-50px);
           transform: translateX(-50px);
+}
+
+@media screen and (min-width: 900px) {
+  .talia-container {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav-slider {
+    display: none;
+  }
+  .talia-container {
+    max-width: 720px;
+  }
 }
